@@ -1,0 +1,33 @@
+{
+  "name": "mebus-react",
+  "description": "React hook for MeBus, a type safe wrapper around the browser's events",
+  "version": "1.0.0",
+  "type": "module",
+  "author": {
+    "name": "Kirill Chuprov",
+    "email": "kirill@kcrz.dev",
+    "url": "https://kcrz.dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kirill-dev-pro/MeBus-react"
+  },
+  "license": "MIT",
+  "main": "index.ts",
+  "module": "index.ts",
+  "keywords": [
+    "mebus",
+    "react",
+    "zod",
+    "microfrontends",
+    "event bus"
+  ],
+  "dependencies": {
+    "mebus": "^1.0.1",
+    "react": "^18.2.0",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.56"
+  }
+}
