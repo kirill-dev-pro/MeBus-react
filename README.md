@@ -2,11 +2,12 @@
 
 ## Description
 
-React hook for MeBus. MeBus is a typesafe wrapper around the browser's native `MessageEvent` API.
+React hook for MeBus. MeBus is a type-safe wrapper around the browser's native `MessageEvent` API.
 
-This package has 2 dependencies:
-- `zod` for event schema validation
+This package has 3 dependencies:
+- `io-ts` for event schema validation
 - `mebus` for the core functionality
+- `react` for the react hook
 
 ## Installation
 
@@ -19,12 +20,10 @@ npm install mebus-react
 ```jsx
 import { useMeBus } from 'mebus-react';
 import { useState } from "react";
-import { z } from "zod";
+import * as t from "io-ts";
 
 const myEventSchema = {
-  increaseCounter: z.object({
-    number: z.number(),
-  }),
+  increaseCounter: t.type({ number: t.number }),
 };
 
 const Counter = () => {
