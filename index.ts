@@ -1,5 +1,6 @@
 import type { TypeOf } from 'io-ts';
-import { EventSchema, MeBus } from "mebus";
+import type { EventSchema } from "mebus";
+import { MeBus } from "mebus";
 import { useEffect, useMemo } from "react";
 
 /**

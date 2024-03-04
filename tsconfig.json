@@ -15,11 +15,6 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
-
-    /* Publishing */
-    "declaration": true,
-    "outDir": "dist",
-    "noEmit": false,
   },
   "include": ["index.ts"],
   "exclude": [
