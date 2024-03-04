@@ -1,4 +1,4 @@
-import type { TypeC, TypeOf } from 'io-ts';
+import type { TypeOf } from 'io-ts';
 import { EventSchema, MeBus } from "mebus";
 import { useEffect, useMemo } from "react";
 
